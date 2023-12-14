@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+}
+.cronometro{
+    margin: 50px auto;
+    width: 300px;
+    background-color: rgb(0, 0, 0); 
+    border-radius: 100px;
+}
+.display{
+    font-size: 150px;
+}
+.botoes{
+    font-size: 50px;
+    padding: 10px 20px;
+    margin: 10px;
+    color: red;
+}
+button{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-left: 8px;
+    border-radius: 50px;
+    margin-bottom: 25px;
+    font-size: 15px;
+
+}
+span{
+    color: white;
+}
+    H1{
+        color: black;
+        text-align: center;
+        font-size: 150px;
+        font-family: 'Franklin Gothic Medium';
+    }

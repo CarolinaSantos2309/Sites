@@ -1,0 +1,245 @@
+body{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+  
+}
+
+#alinhar {
+    display: inline;
+    flex-direction: row;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+;
+}
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+}
+a{
+    color: violet;
+
+}
+a:hover{
+    color: violet;
+    transition: 0.3s all;
+}
+#inscreva-se-btn{
+    border: 2px solid #000000;
+    color: #000000;
+    padding: 10px;
+    border-radius: 20px;
+}
+#inscreva-se-btn:hover{
+    background-color: #ffffff;
+    color: violet;
+}
+.meio_esquerdo{
+    text-align: left;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    
+}
+h2{
+    font-size: 50px;
+    line-height: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+span{
+    color: violet;
+   
+}
+p{
+    line-height: 30px;
+    max-width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+img{
+    width: 300px;
+    border-left: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 700;
+}
+form [type="submit"]{
+    height: 50px;
+    width: 50;
+    background-color: violet;
+    color: #ffffff;
+    font-weight: bold;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+#urso{
+    color: violet;
+    font-size: 60px;
+}
+h2.secondary-title{
+    line-height: 40px;
+}
+.form_img{
+    display: flex;
+    flex-direction: row !important;
+}
+.meio_direita{
+    display: flex;
+    flex-direction: row;
+}
+.btn{
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    max-width: 200px;
+    text-align: center;
+}
+.btn.btn-primary{
+    border-color: rgb(255, 0, 0);
+    color: black;
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-decoration: none;
+
+}
+.about {
+    display: flex;
+}
+  
+.about h2 {
+    line-height: 30px;
+}
+  
+.about_left {
+    width: 45%;
+    margin-right: 25px;
+}
+  
+.skills_content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+  
+.description {
+    text-align: center;
+    max-width: 100%;
+}
+  
+.skill_content{
+    display: flex;
+}  
+  
+.skill_item img{
+    max-width: 100px;
+}
+.projects {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+  
+.projects p{
+    max-width: 100%;
+}
+  
+.element1 {
+    display: flex;
+    flex-direction: row;
+}
+  
+.element2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+  
+.element3 {
+    display: flex;
+    flex-direction: row;
+}
+.divisao{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+}
+.max-widht{
+    width: 100%;
+    max-width: 120rem;
+}
+.mb-0{
+    margin-bottom: 0;
+}
+.mb-s{
+    margin-bottom: 1rem;
+}
+.mb-m{
+    margin-bottom: 4rem;
+}  
+.mb-1{
+    margin-bottom: 2rem;
+}  
+.mb-x1{
+    margin-bottom: 6rem;
+}  
+.footer{
+    margin-top: -20%;
+}
+.footer_content{
+    display: flex;
+    flex-direction: row;
+}
+@media only screen and (max-widht:1024px){
+    html{
+        font-size: 60%;
+    }
+    h1{
+        font-size: 6rem;
+    }
+}
+
+@media only screen and (max-widht: 750px) {
+    html {
+        font-size: 60%;
+    } 
+    .max-widht{
+        padding: 0 2rem;
+    }
+}
+
+@media only screen and (max-widht:425px) {
+    h1{
+        font-size: 4.2rem;
+    }
+}

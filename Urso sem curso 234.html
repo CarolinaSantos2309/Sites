@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <script src="portifolio.js"></script>
+    <title>Portfolio</title>
+</head>
+<style>
+    body{
+    background-color: #f9fccf;
+    color: #b07e5b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+  
+}
+
+#alinhar {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+}
+a{
+    color: #b07e5b;
+
+}
+a:hover{
+    color: #8ab2b2;
+    transition: 0.3s all;
+}
+#inscreva-se-btn{
+    border: 2px solid #f9fccf;
+    color: #b07e5b;
+    padding: 10px;
+    border-radius: 20px;
+}
+#inscreva-se-btn:hover{
+    background-color: #9db964;
+    color: #b07e5b;
+}
+.meio_esquerdo{
+    text-align: left;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+  
+
+}
+h2{
+    font-size: 50px;
+    line-height: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+span{
+    color: #9db964;
+  
+}
+p{
+    line-height: 30px;
+    max-width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+
+
+img{
+    width: 350px;
+    border-left: 30px;
+    margin-left: 140px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 700;
+}
+form [type="submit"]{
+    height: 50px;
+    width: 50;
+    background-color: #9db964;
+    color: #f9fccf;
+    font-weight: bold;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+#urso{
+    color: #9db964;
+    font-size: 60px;
+}
+h2.secondary-title{
+    line-height: 40px;
+}
+.form_img{
+    display: flex;
+    flex-direction: row !important;
+}
+.meio_direita{
+    display: flex;
+    flex-direction: row;
+}
+</style>
+<body>
+    
+    <header>
+        <div id="title">
+            <h1 id="urso">Urso</h1>
+            <h1>Sem Curso</h1>
+        </div>
+        <ul class="navbar_links">
+            <a href="#"><li>Inicio</li></a>
+            <a href="#"><li>Sobre</li></a>
+            <a href="#" id="inscreva-se-btn"><li>Mande Uma Proposta!</li></a>
+        </ul>
+    </header> 
+    <main>
+        <aside>
+            <h2><span>Feito Por Fã</span></h2>
+            <h2>Inscreva-se Agora</h2>
+            <div id="alinhar">
+                <p>Ursos sem Curso conta a história de três ursos adoráveis que 
+                entendem tudo de redes sociais, mas tem dificuldade em fazer 
+                amigos na vida real. Eles tentam se integrar ao cotidiano humano, 
+                mas não são muito bons em socializar. O trio mora em uma caverna (com WiFi) 
+                e gostam de passear formando uma pilha de ursos.
+                </p>
+                <img src="urso_1-removebg-preview.png">
+            </div>
+            
+            <div class="form_img">
+            <form>
+                <input type="text" placeholder="Nome">
+                <input type="text" placeholder="Email">
+                <input type="submit" value="Enviar">
+
+            </form>
+            
+            </div>
+        </aside>
